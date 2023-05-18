@@ -39,10 +39,11 @@ export const StackSection = styled("section", {
   padding: "4rem 0 2rem 0",
 });
 export const AboutSection = styled("section", {
-  backgroundColor: "$grey3",
+  backgroundColor: "$grey4",
   padding: "4rem 0 2rem 0",
   display: "flex",
   justifyContent: "center",
+  borderBottom: "5px solid white"
 
 });
 

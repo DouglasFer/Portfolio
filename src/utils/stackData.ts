@@ -1,28 +1,23 @@
-import imgHTML from "../public/static/img/stack/html.svg";
-import imgCSS from "../public/static/img/stack/css.svg";
-import imgJS from "../public/static/img/stack/js.svg";
-import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
-import imgReact from "../public/static/img/stack/react.svg";
 import { SiTypescript } from "react-icons/si";
-import { FaDocker, FaAngular, FaPython } from "react-icons/fa";
+import { FaAngular, FaPython, FaNodeJs, FaJs, FaCss3, FaHtml5, FaReact } from "react-icons/fa";
 
 export const stackData = [
   {
     title: "HTML",
-    img: imgHTML,
+    img: FaHtml5,
   },
   {
     title: "CSS",
-    img: imgCSS,
+    img: FaCss3,
   },
   {
     title: "JS",
-    img: imgJS,
+    img: FaJs,
   },
   {
     title: "Node JS",
-    img: imgNode,
+    img: FaNodeJs,
   },
   {
     title: "Styled Components",
@@ -30,7 +25,7 @@ export const stackData = [
   },
   {
     title: "React",
-    img: imgReact,
+    img: FaReact,
   },
   { title: "Python", img: FaPython },
   { title: "TypeScript", img: SiTypescript },

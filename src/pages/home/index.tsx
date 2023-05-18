@@ -54,7 +54,7 @@ export const Home = (): JSX.Element => {
       </Header> 
       <AboutSection>
           <HeaderContent>
-            <Text as="h1" type="heading3" color="grey2">
+            <Text as="h1" type="heading3" color="grey1">
               Sobre Mim{" "}
             </Text>
             <Text type="body2" color="grey1">
