@@ -23,6 +23,7 @@ export const HeaderContent = styled("div", {
   gap: "$2",
 });
 
+
 export const HeaderButtonsArea = styled(Flex, {
   marginTop: "$2",
   "@mobile": {
@@ -36,6 +37,13 @@ export const HeaderButtonsArea = styled(Flex, {
 export const StackSection = styled("section", {
   backgroundColor: "$grey4",
   padding: "4rem 0 2rem 0",
+});
+export const AboutSection = styled("section", {
+  backgroundColor: "$grey3",
+  padding: "4rem 0 2rem 0",
+  display: "flex",
+  justifyContent: "center",
+
 });
 
 export const StackCards = styled("div", {

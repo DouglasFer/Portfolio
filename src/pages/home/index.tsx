@@ -16,6 +16,7 @@ import {
   Header,
   HeaderContent,
   HeaderButtonsArea,
+  AboutSection,
   StackSection,
   StackCards,
   ProjectsArea,
@@ -48,8 +49,28 @@ export const Home = (): JSX.Element => {
               </Button>
             </HeaderButtonsArea>
           </HeaderContent>
+
         </Container>
-      </Header>
+      </Header> 
+      <AboutSection>
+          <HeaderContent>
+            <Text as="h1" type="heading3" color="grey2">
+              Sobre Mim{" "}
+            </Text>
+            <Text type="body2" color="grey1">
+             Amante da tecnlogia desde criança, onde tinha e ainda tenho bastante curiosidade sobre como tudo funciona nesse mundo,
+             comecei os estudos de programação em 2017 quando dei inicio na faculdade, estudei durante 1 ano inteiro, em faculdade
+             particular, tive oportunidade de me mudar para o Rio Grande do Sul e estudar na Faculdade Federal, devido alguns problemas
+             de transferência acabei não conseguindo ingressar, porém não parei de estudar, continuei por conta propria em estudos
+             por videos aulas em algumas plataformas, em 2022 descobri a instituição Kenzie Academy onde me matriculei e comecei
+             a aprender varias tecnologias, linguagens de programação, habilidades comportamentais, competências subjetivas e hoje quase
+             me formando nessa instituição de ensino em: Desenvolvedor Web Full Stack 
+             
+            </Text>
+
+          </HeaderContent>
+      </AboutSection>
+
       <StackSection id="tecnologias">
         <Container>
           <Text as="h4" type="heading3" color="grey1">
